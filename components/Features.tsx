@@ -9,14 +9,36 @@ export function FeatureGarafia() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
-          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
-            <Image
-              src="/img/gallery/gallery-1.jpg"
-              alt="Garafía, La Palma"
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 50vw"
-            />
+          <div>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/img/garafia-starlight.jpg"
+                alt="Garafía, Reserva Starlight - La Palma"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+            <p className="text-xs text-gray-400 mt-2 text-center">
+              {t('photoBy')}{' '}
+              <a
+                href="https://unsplash.com/es/@evgenit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-gray-600"
+              >
+                Evgeni Tcherkasski
+              </a>{' '}
+              {t('photoOn')}{' '}
+              <a
+                href="https://unsplash.com/es/fotos/via-lactea-por-la-noche-ZiJ9QGRCVEg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-gray-600"
+              >
+                Unsplash
+              </a>
+            </p>
           </div>
 
           {/* Content */}

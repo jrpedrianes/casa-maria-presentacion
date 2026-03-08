@@ -10,6 +10,7 @@
     "lint:write": "eslint . --fix",
     "format": "prettier --check .",
     "format:write": "prettier --write .",
+    "clean": "rm -rf .next",
     "check": "pnpm run lint && pnpm run format"
   },
   "dependencies": {
