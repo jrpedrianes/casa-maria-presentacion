@@ -23,7 +23,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <FeatureGarafia />
         <FeatureCasa />
         <Amenities />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <PromoRosheli />
         <Contact />
       </main>
