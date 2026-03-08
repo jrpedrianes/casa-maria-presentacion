@@ -50,9 +50,6 @@ export function Footer() {
               >
                 info@casitasrosheli.com
               </a>
-              <a href="tel:+34922463340" className="block hover:text-white transition-colors">
-                +34 922 46 33 40
-              </a>
               <a href="tel:+34686738087" className="block hover:text-white transition-colors">
                 +34 686 73 80 87
               </a>

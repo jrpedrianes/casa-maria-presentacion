@@ -73,10 +73,6 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">{t('phone')}</h3>
-                  <a href="tel:+34922463340" className="text-primary-600 hover:text-primary-700">
-                    +34 922 46 33 40
-                  </a>
-                  <br />
                   <a href="tel:+34686738087" className="text-primary-600 hover:text-primary-700">
                     +34 686 73 80 87
                   </a>

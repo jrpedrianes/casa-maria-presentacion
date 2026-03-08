@@ -7,6 +7,7 @@ import { Footer } from '@/components/Footer'
 import { Gallery } from '@/components/Gallery'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { PromoRosheli } from '@/components/PromoRosheli'
 import { Testimonials } from '@/components/Testimonials'
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
@@ -23,6 +24,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <FeatureCasa />
         <Amenities />
         <Testimonials />
+        <PromoRosheli />
         <Contact />
       </main>
       <Footer />

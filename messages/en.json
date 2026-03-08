@@ -50,14 +50,19 @@
     "subtitle": "What our guests say",
     "moreReviews": "See more reviews on"
   },
+  "promo": {
+    "title": "Looking for apartments in Los Llanos de Aridane?",
+    "description": "Discover Casitas Rosheli, our apartments with pool, garden and mountain views in the Los Llanos de Aridane area.",
+    "button": "Visit Casitas Rosheli"
+  },
   "contact": {
     "title": "Contact",
     "subtitle": "We're here to help",
     "description": "If you wish to receive any additional information, or to enquire about availability or prices, you can contact us.",
     "address": "Address",
-    "addressLine1": "El Castillo",
-    "addressLine2": "38787, Garafía",
-    "addressLine3": "La Palma, Santa Cruz de Tenerife",
+    "addressLine1": "Calle El Castillo, 5",
+    "addressLine2": "38788, El Castillo",
+    "addressLine3": "Santa Cruz de Tenerife",
     "addressLine4": "Canary Islands, Spain",
     "email": "Email",
     "phone": "Phone",
@@ -70,6 +75,6 @@
     "privacy": "Privacy",
     "cookies": "Cookies",
     "contact": "Contact",
-    "partOf": "Part of"
+    "partOf": "Managed by"
   }
 }
