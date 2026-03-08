@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "amenities": "Servicios",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "manageBooking": "Reservar"
+  },
+  "hero": {
+    "title": "Casa María Presentación",
+    "subtitle": "Casa Rural en Garafía, La Palma",
+    "description": "Piedra volcánica, historia centenaria y naturaleza en estado puro",
+    "bookButton": "Reservar ahora",
+    "viewGallery": "Ver galería"
+  },
+  "gallery": {
+    "title": "Nuestra Galería",
+    "subtitle": "Descubre el encanto de una casa centenaria de piedra volcánica",
+    "viewAll": "Ver todas las fotos",
+    "swipeHint": "Desliza"
+  },
+  "features": {
+    "garafia": {
+      "title": "Garafía, Reserva Starlight",
+      "description1": "Garafía se encuentra en el noroeste de La Palma, una de las zonas más vírgenes y auténticas de las Islas Canarias. Es municipio de la Reserva de la Biosfera y territorio certificado como Reserva Starlight, donde la contaminación lumínica es prácticamente inexistente.",
+      "description2": "El municipio alberga los famosos dragos centenarios, la laurisilva del bosque de Los Tilos y está a pocos kilómetros del Roque de los Muchachos (2.426 m), donde se sitúa uno de los observatorios astrofísicos más importantes del mundo.",
+      "description3": "Garafía es un paraíso para el senderismo, con rutas que atraviesan barrancos, pinares y bosques de laurisilva. Un destino ideal para quienes buscan tranquilidad, naturaleza y cielos estrellados."
+    },
+    "casa": {
+      "title": "Una casa con historia",
+      "description1": "Casa María Presentación es una casa centenaria de piedra volcánica situada en El Castillo, Garafía. Con más de 100 años de historia, ha pasado por varias generaciones de la misma familia, conservando su esencia y carácter original.",
+      "description2": "Sus gruesos muros de piedra volcánica, vigas de madera y chimenea tradicional crean un ambiente acogedor y auténtico. La casa cuenta con jardín, terraza con vistas al mar y está rodeada de la exuberante vegetación de Garafía."
+    }
+  },
+  "amenities": {
+    "title": "Nuestros servicios",
+    "subtitle": "Todo lo que necesitas para una estancia perfecta",
+    "wifi": "WiFi Gratis",
+    "fireplace": "Chimenea",
+    "kitchen": "Cocina equipada",
+    "garden": "Jardín",
+    "terrace": "Terraza con vistas",
+    "parking": "Aparcamiento",
+    "pets": "Admite mascotas",
+    "tranquility": "Tranquilidad"
+  },
+  "testimonials": {
+    "title": "Opiniones",
+    "subtitle": "Lo que dicen nuestros huéspedes",
+    "moreReviews": "Ver más opiniones en"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Estamos aquí para ayudarte",
+    "description": "Si desea recibir cualquier información adicional, o consultar sobre disponibilidad o precios puede contactar con nosotros.",
+    "address": "Dirección",
+    "addressLine1": "El Castillo",
+    "addressLine2": "38787, Garafía",
+    "addressLine3": "La Palma, Santa Cruz de Tenerife",
+    "addressLine4": "Islas Canarias, España",
+    "email": "Email",
+    "phone": "Teléfono",
+    "viewMap": "Ver ubicación en Google Maps",
+    "managedBy": "Gestionado por"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "cookies": "Cookies",
+    "contact": "Contacto",
+    "partOf": "Parte de"
+  }
+}

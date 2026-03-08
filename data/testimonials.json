@@ -1,0 +1,52 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "text": {
+        "es": "Una casa con mucho encanto, la piedra volcánica y las vigas de madera le dan un carácter único. La terraza con vistas al mar es espectacular para ver atardecer. Garafía es un lugar mágico.",
+        "en": "A house with great charm, the volcanic stone and wooden beams give it a unique character. The terrace with sea views is spectacular for watching the sunset. Garafía is a magical place.",
+        "de": "Ein Haus mit viel Charme, der Vulkanstein und die Holzbalken verleihen ihm einen einzigartigen Charakter. Die Terrasse mit Meerblick ist spektakulär, um den Sonnenuntergang zu beobachten. Garafía ist ein magischer Ort."
+      },
+      "author": "Carmen",
+      "location": {
+        "es": "España",
+        "en": "Spain",
+        "de": "Spanien"
+      },
+      "rating": 10,
+      "date": "2026-01"
+    },
+    {
+      "id": 2,
+      "text": {
+        "es": "Nos encantó la tranquilidad del lugar y la historia de la casa. Se nota que está cuidada con cariño. La chimenea por las noches es un lujo. Perfecta para desconectar.",
+        "en": "We loved the tranquillity of the place and the history of the house. You can tell it is cared for with love. The fireplace at night is a luxury. Perfect for disconnecting.",
+        "de": "Wir liebten die Ruhe des Ortes und die Geschichte des Hauses. Man merkt, dass es mit Liebe gepflegt wird. Der Kamin am Abend ist ein Luxus. Perfekt zum Abschalten."
+      },
+      "author": "Thomas",
+      "location": {
+        "es": "Alemania",
+        "en": "Germany",
+        "de": "Deutschland"
+      },
+      "rating": 10,
+      "date": "2025-11"
+    },
+    {
+      "id": 3,
+      "text": {
+        "es": "Garafía es increíble para ver estrellas, y la casa es perfecta como base. Muy bien equipada, con jardín y barbacoa. Los anfitriones son muy amables y atentos.",
+        "en": "Garafía is incredible for stargazing, and the house is perfect as a base. Very well equipped, with garden and barbecue. The hosts are very friendly and attentive.",
+        "de": "Garafía ist unglaublich zum Sternegucken, und das Haus ist perfekt als Basis. Sehr gut ausgestattet, mit Garten und Grill. Die Gastgeber sind sehr freundlich und aufmerksam."
+      },
+      "author": "Sarah",
+      "location": {
+        "es": "Reino Unido",
+        "en": "United Kingdom",
+        "de": "Vereinigtes Königreich"
+      },
+      "rating": 10,
+      "date": "2025-09"
+    }
+  ]
+}

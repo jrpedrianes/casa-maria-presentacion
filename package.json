@@ -1,0 +1,41 @@
+{
+  "name": "casa-maria-presentacion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "lint:write": "eslint . --fix",
+    "format": "prettier --check .",
+    "format:write": "prettier --write .",
+    "check": "pnpm run lint && pnpm run format"
+  },
+  "dependencies": {
+    "embla-carousel-react": "8.6.0",
+    "lucide-react": "0.563.0",
+    "next": "16.1.6",
+    "next-intl": "4.8.2",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.4",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "autoprefixer": "10.4.27",
+    "eslint": "9.39.3",
+    "eslint-config-next": "16.1.6",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-prettier": "5.5.5",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "postcss": "8.5.7",
+    "prettier": "3.8.1",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "pnpm@10.29.2"
+}

@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "gallery": "Galerie",
+    "amenities": "Ausstattung",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "manageBooking": "Buchen"
+  },
+  "hero": {
+    "title": "Casa María Presentación",
+    "subtitle": "Landhaus in Garafía, La Palma",
+    "description": "Vulkanstein, hundertjährige Geschichte und Natur in ihrer reinsten Form",
+    "bookButton": "Jetzt buchen",
+    "viewGallery": "Galerie ansehen"
+  },
+  "gallery": {
+    "title": "Unsere Galerie",
+    "subtitle": "Entdecken Sie den Charme eines hundertjährigen Hauses aus Vulkanstein",
+    "viewAll": "Alle Fotos ansehen",
+    "swipeHint": "Wischen"
+  },
+  "features": {
+    "garafia": {
+      "title": "Garafía, Starlight-Reservat",
+      "description1": "Garafía liegt im Nordwesten von La Palma, einem der unberührtesten und authentischsten Gebiete der Kanarischen Inseln. Es ist eine Gemeinde innerhalb des Biosphärenreservats und ein zertifiziertes Starlight-Reservat, in dem die Lichtverschmutzung praktisch nicht vorhanden ist.",
+      "description2": "Die Gemeinde beherbergt berühmte hundertjährige Drachenbäume, den Lorbeerwald von Los Tilos und liegt nur wenige Kilometer vom Roque de los Muchachos (2.426 m) entfernt, wo sich eines der wichtigsten astrophysikalischen Observatorien der Welt befindet.",
+      "description3": "Garafía ist ein Paradies zum Wandern, mit Wegen durch Schluchten, Kiefernwälder und Lorbeerwälder. Ein ideales Reiseziel für alle, die Ruhe, Natur und Sternenhimmel suchen."
+    },
+    "casa": {
+      "title": "Ein Haus mit Geschichte",
+      "description1": "Casa María Presentación ist ein hundertjähriges Haus aus Vulkanstein in El Castillo, Garafía. Mit über 100 Jahren Geschichte ist es durch mehrere Generationen derselben Familie gegangen und hat dabei seine Essenz und seinen ursprünglichen Charakter bewahrt.",
+      "description2": "Seine dicken Vulkansteinmauern, Holzbalken und der traditionelle Kamin schaffen eine warme und authentische Atmosphäre. Das Haus verfügt über einen Garten, eine Terrasse mit Meerblick und ist von der üppigen Vegetation Garafías umgeben."
+    }
+  },
+  "amenities": {
+    "title": "Unsere Ausstattung",
+    "subtitle": "Alles, was Sie für einen perfekten Aufenthalt brauchen",
+    "wifi": "Kostenloses WLAN",
+    "fireplace": "Kamin",
+    "kitchen": "Ausgestattete Küche",
+    "garden": "Garten",
+    "terrace": "Terrasse mit Aussicht",
+    "parking": "Parkplatz",
+    "pets": "Haustierfreundlich",
+    "tranquility": "Ruhe"
+  },
+  "testimonials": {
+    "title": "Bewertungen",
+    "subtitle": "Was unsere Gäste sagen",
+    "moreReviews": "Weitere Bewertungen auf"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Wir sind für Sie da",
+    "description": "Wenn Sie zusätzliche Informationen erhalten oder sich nach Verfügbarkeit oder Preisen erkundigen möchten, können Sie uns kontaktieren.",
+    "address": "Adresse",
+    "addressLine1": "El Castillo",
+    "addressLine2": "38787, Garafía",
+    "addressLine3": "La Palma, Santa Cruz de Tenerife",
+    "addressLine4": "Kanarische Inseln, Spanien",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "viewMap": "Standort auf Google Maps anzeigen",
+    "managedBy": "Verwaltet von"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "cookies": "Cookies",
+    "contact": "Kontakt",
+    "partOf": "Teil von"
+  }
+}
