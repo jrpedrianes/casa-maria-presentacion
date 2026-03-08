@@ -1,3 +1,4 @@
+import { ExternalLink } from 'lucide-react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 
@@ -33,9 +34,10 @@ export function PromoRosheli() {
               href="https://casitasrosheli.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-8 py-4 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-all transform hover:scale-105 font-semibold text-lg shadow-lg"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-all transform hover:scale-105 font-semibold text-lg shadow-lg"
             >
               {t('button')}
+              <ExternalLink size={20} />
             </a>
           </div>
         </div>
