@@ -17,10 +17,12 @@ export const metadata: Metadata = {
     apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
     other: [{ rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#16a34a' }],
   },
+  metadataBase: new URL('https://casamariapresentacion.com'),
   openGraph: {
     title: 'Casa María Presentación - Garafía, La Palma',
     description: 'Casa rural centenaria de piedra volcánica en El Castillo, Garafía, La Palma',
     type: 'website',
+    url: 'https://casamariapresentacion.com',
   },
   other: {
     'msapplication-TileColor': '#16a34a',
