@@ -4,6 +4,7 @@ import { Link } from '@/i18n/routing'
 
 export function Footer() {
   const t = useTranslations('footer')
+  const tc = useTranslations('contact')
   const currentYear = new Date().getFullYear()
 
   return (
@@ -13,7 +14,11 @@ export function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold mb-4">Casa María Presentación</h3>
-            <p className="text-gray-400">Garafía, La Palma, Islas Canarias</p>
+            <p className="text-gray-400">
+              {tc('addressLine1')}, {tc('addressLine2')}
+              <br />
+              {tc('addressLine3')}, {tc('addressLine4')}
+            </p>
             <p className="text-gray-500 text-sm mt-2">
               {t('partOf')}{' '}
               <a

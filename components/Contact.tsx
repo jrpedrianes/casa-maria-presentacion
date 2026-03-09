@@ -19,38 +19,18 @@ export function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="space-y-8">
-            <p className="text-lg text-gray-700">{t('description')}</p>
+            <p className="text-xl text-gray-700 leading-relaxed">{t('description')}</p>
 
             <div className="space-y-6">
-              {/* Address */}
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <MapPin className="text-primary-600" size={24} />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">{t('address')}</h3>
-                  <p className="text-gray-700">
-                    {t('addressLine1')}
-                    <br />
-                    {t('addressLine2')}
-                    <br />
-                    {t('addressLine3')}
-                    <br />
-                    {t('addressLine4')}
-                  </p>
-                </div>
-              </div>
-
               {/* Email */}
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Mail className="text-primary-600" size={24} />
+                  <Mail className="text-primary-600" aria-label={t('email')} size={24} />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">{t('email')}</h3>
                   <a
                     href="mailto:info@casitasrosheli.com"
-                    className="text-primary-600 hover:text-primary-700"
+                    className="text-lg font-medium text-primary-600 hover:text-primary-700"
                   >
                     info@casitasrosheli.com
                   </a>
@@ -69,36 +49,26 @@ export function Contact() {
               </div>
 
               {/* Phone */}
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Phone className="text-primary-600" size={24} />
+                  <Phone className="text-primary-600" aria-label={t('phone')} size={24} />
                 </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">{t('phone')}</h3>
-                  <a href="tel:+34686738087" className="text-primary-600 hover:text-primary-700">
-                    +34 686 73 80 87
-                  </a>
-                </div>
-              </div>
-
-              {/* WhatsApp */}
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <WhatsAppIcon className="text-primary-600 w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">{t('whatsapp')}</h3>
-                  <a
-                    href={`https://wa.me/34686738087?text=${encodeURIComponent(t('whatsappMessage'))}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700"
-                  >
-                    +34 686 73 80 87
-                  </a>
-                </div>
+                <a href="tel:+34686738087" className="text-lg font-medium text-primary-600 hover:text-primary-700">
+                  +34 686 73 80 87
+                </a>
               </div>
             </div>
+
+            {/* CTA */}
+            <a
+              href={`https://wa.me/34686738087?text=${encodeURIComponent(t('whatsappMessage'))}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
+            >
+              <WhatsAppIcon className="w-5 h-5" />
+              {t('cta')}
+            </a>
           </div>
 
           {/* Map Link */}
