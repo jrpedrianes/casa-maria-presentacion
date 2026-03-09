@@ -69,8 +69,8 @@
     "email": "Email",
     "phone": "Teléfono",
     "whatsapp": "WhatsApp",
-    "whatsappMessage": "Hola, me interesa reservar Casa María Presentación. ¿Podrían darme información sobre disponibilidad y precios?",
-    "cta": "Reservar por WhatsApp",
+    "whatsappMessage": "Hola, me gustaría recibir información sobre Casa María Presentación. ¿Podrían indicarme disponibilidad y precios?",
+    "cta": "Contactar por WhatsApp",
     "viewMap": "Ver ubicación en Google Maps",
     "managedBy": "Gestionado por"
   },
