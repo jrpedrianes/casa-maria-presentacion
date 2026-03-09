@@ -2,6 +2,8 @@ import { Mail, MapPin, Phone } from 'lucide-react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 
+import { WhatsAppIcon } from './icons/WhatsAppIcon'
+
 export function Contact() {
   const t = useTranslations('contact')
 
@@ -66,7 +68,7 @@ export function Contact() {
                 </div>
               </div>
 
-              {/* Phone 1 */}
+              {/* Phone */}
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
                   <Phone className="text-primary-600" size={24} />
@@ -74,6 +76,24 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">{t('phone')}</h3>
                   <a href="tel:+34686738087" className="text-primary-600 hover:text-primary-700">
+                    +34 686 73 80 87
+                  </a>
+                </div>
+              </div>
+
+              {/* WhatsApp */}
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <WhatsAppIcon className="text-primary-600 w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">{t('whatsapp')}</h3>
+                  <a
+                    href={`https://wa.me/34686738087?text=${encodeURIComponent(t('whatsappMessage'))}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700"
+                  >
                     +34 686 73 80 87
                   </a>
                 </div>

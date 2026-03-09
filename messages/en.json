@@ -68,6 +68,8 @@
     "addressLine4": "Canary Islands, Spain",
     "email": "Email",
     "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "whatsappMessage": "Hello, I'm interested in booking Casa María Presentación. Could you provide me with availability and pricing information?",
     "viewMap": "View location on Google Maps",
     "managedBy": "Managed by"
   },
