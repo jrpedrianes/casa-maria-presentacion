@@ -28,10 +28,12 @@ Node 24.13.1 and pnpm 10.29.2 are managed via `mise.toml`.
 **i18n:** Three locales (es/en/de), Spanish default. `localePrefix: 'always'` means all URLs include locale (`/es`, `/en`, `/de`). Translations live in `messages/{locale}.json` organized by namespace. The `proxy.ts` middleware handles locale detection and routing.
 
 **Routing:**
+
 - `/[locale]/` — Home (single-page scroll: Hero → Gallery → Features × 2 → Amenities → Promo → Contact)
 - `/[locale]/legal` — Legal notice & privacy policy
 
 **Component conventions:**
+
 - `'use client'` only on interactive components (Header, Gallery, Lightbox, LanguageSwitcher, Amenities)
 - Server components for everything else
 - `Features.tsx` exports two components: `FeatureGarafia` + `FeatureCasa`

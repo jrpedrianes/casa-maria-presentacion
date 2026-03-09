@@ -53,7 +53,10 @@ export function Contact() {
                 <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
                   <Phone className="text-primary-600" aria-label={t('phone')} size={24} />
                 </div>
-                <a href="tel:+34686738087" className="text-lg font-medium text-primary-600 hover:text-primary-700">
+                <a
+                  href="tel:+34686738087"
+                  className="text-lg font-medium text-primary-600 hover:text-primary-700"
+                >
                   +34 686 73 80 87
                 </a>
               </div>
