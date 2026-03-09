@@ -63,15 +63,17 @@ export function Contact() {
             </div>
 
             {/* CTA */}
-            <a
-              href={`https://wa.me/34686738087?text=${encodeURIComponent(t('whatsappMessage'))}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
-            >
-              <WhatsAppIcon className="w-5 h-5" />
-              {t('cta')}
-            </a>
+            <div className="text-center lg:text-left">
+              <a
+                href={`https://wa.me/34686738087?text=${encodeURIComponent(t('whatsappMessage'))}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
+              >
+                <WhatsAppIcon className="w-5 h-5" />
+                {t('cta')}
+              </a>
+            </div>
           </div>
 
           {/* Map Link */}
