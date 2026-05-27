@@ -49,6 +49,11 @@ export function LegalContent() {
             'Este sitio web utiliza únicamente cookies estrictamente necesarias para su funcionamiento. En concreto, se emplea una cookie técnica (NEXT_LOCALE) para recordar el idioma seleccionado por el usuario durante un año. No se emplean cookies de análisis, publicidad ni de seguimiento. Las cookies estrictamente necesarias no requieren consentimiento del usuario según el artículo 22.2 de la LSSICE.',
         },
         {
+          title: 'Analítica web y rendimiento',
+          content:
+            'Este sitio web utiliza Vercel Web Analytics y Vercel Speed Insights, servicios respetuosos con la privacidad que miden, respectivamente, la audiencia del sitio y su rendimiento técnico (métricas de carga y experiencia de uso, como las Core Web Vitals). Ninguno de los dos emplea cookies ni almacena información en el dispositivo del usuario. Los datos recogidos (como las páginas visitadas, el país de origen, el tipo de dispositivo o el navegador, y los tiempos de carga) son anónimos y agregados, no permiten identificar a ningún usuario ni rastrear su actividad entre distintos sitios web. La dirección IP no se almacena y los identificadores de sesión se descartan automáticamente a las 24 horas. Por tratarse de una medición sin cookies, no requiere el consentimiento previo del usuario conforme al artículo 22.2 de la LSSICE. El proveedor de estos servicios es Vercel Inc., que actúa como encargado del tratamiento.',
+        },
+        {
           title: 'Servicios externos',
           content:
             'Cuando el usuario hace clic en el enlace del mapa, será redirigido a Google Maps, que tiene sus propias políticas de privacidad y cookies. Puede consultarlas en: https://policies.google.com/privacy?hl=es.',
@@ -120,6 +125,11 @@ export function LegalContent() {
             'This website uses only strictly necessary cookies for its operation. Specifically, a technical cookie (NEXT_LOCALE) is used to remember the language selected by the user for one year. No analytics, advertising or tracking cookies are used. Strictly necessary cookies do not require user consent under Article 22.2 of the LSSICE.',
         },
         {
+          title: 'Web analytics and performance',
+          content:
+            "This website uses Vercel Web Analytics and Vercel Speed Insights, privacy-friendly services that measure, respectively, the site's audience and its technical performance (loading and user-experience metrics, such as Core Web Vitals). Neither uses cookies nor stores any information on the user's device. The data collected (such as pages visited, country of origin, device type or browser, and loading times) is anonymous and aggregated, does not allow any user to be identified, and is not used to track activity across different websites. IP addresses are not stored and session identifiers are automatically discarded after 24 hours. As this is cookieless measurement, no prior user consent is required under Article 22.2 of the LSSICE. These services are provided by Vercel Inc., acting as data processor.",
+        },
+        {
           title: 'External services',
           content:
             'When the user clicks on the map link, they will be redirected to Google Maps, which has its own privacy and cookie policies. You can consult them at: https://policies.google.com/privacy?hl=en.',
@@ -189,6 +199,11 @@ export function LegalContent() {
           title: 'Cookie-Richtlinie',
           content:
             'Diese Website verwendet ausschließlich streng notwendige Cookies für ihren Betrieb. Konkret wird ein technisches Cookie (NEXT_LOCALE) verwendet, um die vom Benutzer ausgewählte Sprache ein Jahr lang zu speichern. Es werden keine Analyse-, Werbe- oder Tracking-Cookies verwendet. Streng notwendige Cookies erfordern gemäß Artikel 22.2 der LSSICE keine Zustimmung des Benutzers.',
+        },
+        {
+          title: 'Web-Analyse und Leistung',
+          content:
+            'Diese Website verwendet Vercel Web Analytics und Vercel Speed Insights, datenschutzfreundliche Dienste, die jeweils die Reichweite der Website und ihre technische Leistung (Lade- und Nutzungserlebnis-Metriken wie die Core Web Vitals) messen. Keiner der beiden Dienste verwendet Cookies oder speichert Informationen auf dem Gerät des Benutzers. Die erhobenen Daten (wie besuchte Seiten, Herkunftsland, Gerätetyp oder Browser sowie Ladezeiten) sind anonym und aggregiert, lassen keine Identifizierung eines Benutzers zu und werden nicht zur seitenübergreifenden Nachverfolgung der Aktivität verwendet. IP-Adressen werden nicht gespeichert und Sitzungskennungen werden automatisch nach 24 Stunden verworfen. Da es sich um eine cookielose Messung handelt, ist gemäß Artikel 22.2 der LSSICE keine vorherige Einwilligung des Benutzers erforderlich. Diese Dienste werden von Vercel Inc. bereitgestellt, das als Auftragsverarbeiter handelt.',
         },
         {
           title: 'Externe Dienste',
