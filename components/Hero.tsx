@@ -10,7 +10,7 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/img/gallery/gallery-7.jpg"
+          src="/img/gallery/gallery-1.webp"
           alt="Casa María Presentación"
           fill
           className="object-cover"

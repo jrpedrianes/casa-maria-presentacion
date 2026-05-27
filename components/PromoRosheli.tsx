@@ -17,7 +17,7 @@ export function PromoRosheli() {
             className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl group lg:col-span-2"
           >
             <Image
-              src="/img/rosheli-preview.jpg"
+              src="/img/rosheli-preview.webp"
               alt="Casitas Rosheli"
               fill
               className="object-cover transition-transform duration-300 group-hover:scale-105"

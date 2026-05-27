@@ -8,8 +8,8 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 
 import { Lightbox } from './Lightbox'
 
-const images = Array.from({ length: 26 }, (_, i) => ({
-  src: `/img/gallery/gallery-${i + 1}.jpg`,
+const images = Array.from({ length: 42 }, (_, i) => ({
+  src: `/img/gallery/gallery-${i + 1}.webp`,
   alt: `Casa María Presentación - Image ${i + 1}`,
 }))
 

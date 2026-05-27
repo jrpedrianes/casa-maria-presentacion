@@ -85,7 +85,7 @@ export function Contact() {
               className="block w-full h-full group relative"
             >
               <Image
-                src="/img/map-preview.png"
+                src="/img/map-preview.webp"
                 alt="Mapa de ubicación - Casa María Presentación"
                 fill
                 className="object-cover group-hover:opacity-90 transition-opacity"

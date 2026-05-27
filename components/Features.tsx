@@ -12,7 +12,7 @@ export function FeatureGarafia() {
           <div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/img/garafia-starlight.jpg"
+                src="/img/garafia-starlight.webp"
                 alt="Garafía, Reserva Starlight - La Palma"
                 fill
                 className="object-cover"
@@ -75,7 +75,7 @@ export function FeatureCasa() {
           {/* Image */}
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl order-1 lg:order-2">
             <Image
-              src="/img/gallery/gallery-10.jpg"
+              src="/img/gallery/gallery-22.webp"
               alt="Casa María Presentación"
               fill
               className="object-cover"
